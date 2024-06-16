@@ -1,0 +1,16 @@
+name: Flower
+version: ${pluginVersion}
+description: A Minecraft plugin template that simplifies creating custom game modes and adventures with powerful tools for admins and developers.
+author: kubbidev
+website: https://kubbidev.com
+main: me.kubbidev.flower.loader.BukkitLoaderPlugin
+load: STARTUP
+
+# Mark the plugin as 1.13 compatible to avoid CB having to perform quite as much unnecessary
+# remapping when the plugin is loaded.
+api-version: 1.13
+
+commands:
+  flower:
+    description: Flower plugin root command
+    aliases: [f]

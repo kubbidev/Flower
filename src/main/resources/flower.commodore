@@ -1,0 +1,17 @@
+flower {
+    sync;
+    info;
+    import {
+        file brigadier:string quotable_phrase;
+    }
+    export {
+        file brigadier:string quotable_phrase;
+    }
+    reloadconfig;
+    translations;
+    user {
+        user brigadier:string single_word {
+            info;
+        }
+    }
+}
