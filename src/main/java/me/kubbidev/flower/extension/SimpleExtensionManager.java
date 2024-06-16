@@ -172,7 +172,7 @@ public class SimpleExtensionManager implements ExtensionManager, AutoCloseable {
 
     private static boolean isJarInJar() {
         String thisClassLoaderName = SimpleExtensionManager.class.getClassLoader().getClass().getName();
-        return thisClassLoaderName.equals("me.kubbidev.flower.common.loader.JarInJarClassLoader");
+        return thisClassLoaderName.equals("me.kubbidev.flower.loader.util.JarInJarClassLoader");
     }
 
     @Deprecated
